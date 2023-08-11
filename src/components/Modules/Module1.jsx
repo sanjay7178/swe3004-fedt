@@ -1,33 +1,33 @@
-import { useState } from 'react';
-
-const Module1 = ({ items }) => {
-  const [activeIndex, setActiveIndex] = useState(null);
-
-  const handleItemClick = (index) => {
-    setActiveIndex(index === activeIndex ? null : index);
-  };
-
+const Module1 = () => {
   return (
-    <div className="accordion">
-      {items.map((item, index) => (
-        <div key={index} className="accordion-item">
-          <button
-            className="accordion-title"
-            onClick={() => handleItemClick(index)}
-            aria-expanded={index === activeIndex}
-            aria-controls={`accordion-content-${index}`}
-          >
-            {item.title}
-          </button>
-          <div
-            id={`accordion-content-${index}`}
-            className={`accordion-content ${index === activeIndex ? 'block' : 'hidden'}`}
-          >
-            {item.content}
+    <>
+      <div className="join join-vertical w-full space-y-3">
+        <details className="collapse collapse-plus bg-base-300 max-w-2xl">
+          <summary className="collapse-title text-xl font-medium w-full">
+            Click to open/close
+          </summary>
+          <div className="collapse-content">
+            <p>content</p>
           </div>
-        </div>
-      ))}
-    </div>
+        </details>
+        <details className="collapse collapse-plus bg-base-300 max-w-2xl">
+          <summary className="collapse-title text-xl font-medium">
+            Click to open/close
+          </summary>
+          <div className="collapse-content">
+            <p>content</p>
+          </div>
+        </details>
+        <details className="collapse collapse-plus bg-base-300 max-w-2xl">
+          <summary className="collapse-title text-xl font-medium">
+            Click to open/close
+          </summary>
+          <div className="collapse-content">
+            <p>content</p>
+          </div>
+        </details>
+      </div>
+    </>
   );
 };
 
