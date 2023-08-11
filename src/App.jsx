@@ -3,6 +3,8 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import GithubCorner from "react-github-corner";
 import ScrollToTop from "react-scroll-to-top";
+import Lectures from "./components/Lectures";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [isDarkBackground, setIsDarkBackground] = useState(false);
@@ -36,7 +38,8 @@ export default function App() {
         target="_blank"
       />
       <Hero />
-      <Hero />
+      <Lectures />
+      <Footer />
     </div>
   );
 }

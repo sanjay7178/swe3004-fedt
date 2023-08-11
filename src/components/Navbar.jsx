@@ -40,6 +40,9 @@ const Navbar = () => {
                       <a>HOME</a>
                     </li>
                     <li>
+                      <a>LECTURES</a>
+                    </li>
+                    <li>
                       <a>OVERVIEW</a>
                     </li>
                     <li>
@@ -48,10 +51,13 @@ const Navbar = () => {
                   </ul>
                 </details>
               </li>
-              
+
               <ul className="pr-[70px] hidden md:flex flex-row">
                 <li>
                   <a>HOME</a>
+                </li>
+                <li>
+                  <a>LECTURES</a>
                 </li>
                 <li>
                   <a>OVERVIEW</a>
