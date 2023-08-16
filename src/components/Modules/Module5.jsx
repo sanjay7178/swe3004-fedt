@@ -1,11 +1,11 @@
-const Module1 = () => {
+const Module5 = () => {
   return (
     <>
       <div className="join join-vertical w-full space-y-3">
-        <h1 className="font-bold text-xl">Module 1 (HTML, CSS and Javascript )</h1>
+        <h1 className="font-bold text-xl">Module 5 (Supporting Functions)</h1>
         <details className="collapse collapse-plus bg-base-300 max-w-2xl">
           <summary className="collapse-title text-xl font-medium w-full">
-          HTML5 – Form elements, Input types and Media elements
+            Responsive Web design using Bootstrap and MD,
           </summary>
           <div className="collapse-content">
             <p>content</p>
@@ -13,8 +13,7 @@ const Module1 = () => {
         </details>
         <details className="collapse collapse-plus bg-base-300 max-w-2xl">
           <summary className="collapse-title text-xl font-medium">
-            CCSS3 - Selectors, Box Model,
-Backgrounds and Borders, Text Effects, Animations, Multiple Column Layout, User Interface.
+            Native Mobile apps using Ionic/ Cardova/ Native Script
           </summary>
           <div className="collapse-content">
             <p>content</p>
@@ -22,17 +21,15 @@ Backgrounds and Borders, Text Effects, Animations, Multiple Column Layout, User 
         </details>
         <details className="collapse collapse-plus bg-base-300 max-w-2xl">
           <summary className="collapse-title text-xl font-medium">
-            JavaScript Introduction –Functions – Arrays – DOM, Built-in Objects, Regular Expression,
-Event handling.
+            Desktop Applications
           </summary>
           <div className="collapse-content">
             <p>content</p>
           </div>
         </details>
       </div>
-      
     </>
   );
 };
 
-export default Module1;
+export default Module5;
