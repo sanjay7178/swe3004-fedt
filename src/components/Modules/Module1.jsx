@@ -12,12 +12,16 @@ const Module1 = () => {
           </div>
         </details>
         <details className="collapse collapse-plus bg-base-300 max-w-2xl">
-          <summary className="collapse-title text-xl font-medium">
+          <summary className="collapse-title text-xl  font-medium">
             CCSS3 - Selectors, Box Model,
 Backgrounds and Borders, Text Effects, Animations, Multiple Column Layout, User Interface.
           </summary>
           <div className="collapse-content">
-            <p>content</p>
+            <p>
+              <li className="text-blue-700">
+                 <a href='https://codepen.io/Sai-Sanjay-Kottakota/pen/PoXYbea' target='_blank'>Animations</a>
+              </li>
+            </p>
           </div>
         </details>
         <details className="collapse collapse-plus bg-base-300 max-w-2xl">
